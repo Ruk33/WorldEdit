@@ -1,0 +1,11 @@
+[20-May-2013 16:48:09 America/New_York] PHP Fatal error:  Call to undefined function set_modified_headers() in /home/worldedi/public_html/forum/download/file.php on line 84
+[20-May-2013 16:48:09 America/New_York] PHP Fatal error:  Call to undefined function set_modified_headers() in /home/worldedi/public_html/forum/download/file.php on line 84
+[20-May-2013 16:48:10 America/New_York] PHP Fatal error:  Call to undefined function set_modified_headers() in /home/worldedi/public_html/forum/download/file.php on line 84
+[20-May-2013 16:48:10 America/New_York] PHP Fatal error:  Call to undefined function set_modified_headers() in /home/worldedi/public_html/forum/download/file.php on line 84
+[20-May-2013 20:29:41 America/New_York] PHP Fatal error:  Call to undefined function set_modified_headers() in /home/worldedi/public_html/forum/download/file.php on line 84
+[26-Jun-2013 21:08:56 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function set_modified_headers() in /home/worldedi/public_html/forum/download/file.php on line 84
+[26-Jun-2013 21:08:58 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function set_modified_headers() in /home/worldedi/public_html/forum/download/file.php on line 84
+[29-Jun-2013 11:48:10 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function download_allowed() in /home/worldedi/public_html/forum/download/file.php on line 240
+[29-Jun-2013 11:48:10 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function set_modified_headers() in /home/worldedi/public_html/forum/download/file.php on line 84
+[29-Jun-2013 11:48:15 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function set_modified_headers() in /home/worldedi/public_html/forum/download/file.php on line 84
+[02-Jul-2013 21:52:53 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function set_modified_headers() in /home/worldedi/public_html/forum/download/file.php on line 84

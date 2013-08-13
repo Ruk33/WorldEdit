@@ -1,0 +1,26 @@
+<!-- INCLUDE overall_header.html -->
+
+<div class="panel">
+	<div class="content" style="padding: 20px;">
+		<h1>Tutoriales</h1>
+	  	<p>Aquí encontrarás todos los tutoriales que han sido publicados por nuestros usuarios y previamente aprobados.</p>
+	  	<br>
+	  	<p>Si quieres aportar tu grano de arena, y publicar un tutorial, ¡eres bienvenido!. Debes recordar que para que tu aporte se muestre en esta lista, primero deberá ser revisado y aprobado por un miembro del staff.</p>
+	  	<p>Por favor, hecha un vistazo a la siguiente <a href="viewtopic.php?f=42&t=4758">publicación</a>.</p>
+		
+	 	<ul>
+	 		<!-- BEGIN tutorials -->
+		 		<!-- IF tutorials.CATEGORY -->
+		 			<h2 style="margin-top: 25px; color: #FFDD00">{tutorials.CATEGORY}</h2>
+		 		<!-- ELSE -->
+					<li style="padding: 5px; border-bottom: 1px dashed #24333C">
+						<h3>{tutorials.TUTORIAL_TITLE}</h3>
+						Publicado por <strong>{tutorials.TUTORIAL_AUTHOR}</strong>
+					</li>
+				<!-- ENDIF -->
+			<!-- END tutorials -->
+		</ul>
+	</div>
+</div>
+
+<!-- INCLUDE overall_footer.html -->

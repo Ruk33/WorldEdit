@@ -1,0 +1,23 @@
+Mini-Chat
+PHP Version: 5.4.3
+DBMS: MySQL(i) 5.5.24-log
+phpBB3 Version: 3.0.11
+
+Removing ucp module: User mChat Prefs
+ERROR: Module does not exist.
+
+Removing ucp module: mChat Prefs
+ERROR: Module does not exist.
+
+Removing acp module: ACP_USER_MCHAT
+ERROR: Module does not exist.
+
+Removing acp module: Configuration
+ERROR: Module does not exist.
+
+Removing acp module: mChat
+ERROR: Module does not exist.
+
+Removing database table: phpbb_mchat_config
+ERROR: Database table phpbb_mchat_config does not exist.
+

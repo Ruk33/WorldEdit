@@ -1,0 +1,3 @@
+[08-Sep-2012 05:35:25 UTC] PHP Fatal error:  Class 'phpbb_seo' not found in /home/worldedi/public_html/forum/includes/acp/acp_phpbb_seo.php on line 40
+[04-Apr-2013 19:12:43 America/New_York] PHP Fatal error:  Call to undefined method dbal_mysqli::sql_lower_text() in /home/worldedi/public_html/forum/includes/functions_admin.php on line 2575
+[16-May-2013 08:42:35 America/New_York] PHP Fatal error:  Call to undefined method dbal_mysqli::sql_lower_text() in /home/worldedi/public_html/forum/includes/functions_admin.php on line 2575

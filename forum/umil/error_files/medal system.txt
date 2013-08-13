@@ -1,0 +1,8 @@
+Medal System
+PHP Version: 5.4.3
+DBMS: MySQL 5.5.24-log
+phpBB3 Version: 3.0.11
+
+Adding a new column named user_points to table phpbb_users
+ERROR: The column user_points already exists on table phpbb_users.
+

@@ -1,0 +1,230 @@
+/* GUI TIME :3 */
+.guiCode {
+    max-width: 700px;
+    overflow: auto;
+    max-height: 500px;
+    font-family: arial;
+    font-size: 11px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 5px;
+    line-height: 16px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url('./../images/gui-sprite.png');
+    background-repeat: no-repeat;
+}
+
+.event {
+    background-position: 0 0;
+}
+
+.condition {
+    background-position: 0 -16px;
+}
+
+.action {
+    background-position: 0 -33px;
+}
+
+.cog {
+    background-position: 0 -50px;
+}
+
+.tree {
+    background-position: 0 -67px;
+}
+
+.exclamation {
+    background-position: 0 -84px;
+}
+
+.orc {
+    background-position: 0 -101px;
+}
+
+.player {
+    background-position: 0 -118px;
+}
+
+.clock {
+    background-position: 0 -135px;
+}
+
+.unit {
+    background-position: 0 -152px;
+}
+
+.sleep {
+    background-position: 0 -169px;
+}
+
+.set {
+    background-position: 0 -186px;
+}
+
+.interrogation {
+    background-position: 0 -203px;
+}
+
+.ai {
+    background-position: 0 -220px;
+}
+
+.effect {
+    background-position: 0 -237px;
+}
+
+.camera {
+    background-position: 0 -254px;
+}
+
+.cloud {
+    background-position: 0 -271px;
+}
+
+.hero {
+    background-position: 0 -288px;
+}
+
+.item {
+    background-position: 0 -305px;
+}
+
+.letter {
+    background-position: 0 -322px;
+}
+
+.neutral {
+    background-position: 0 -339px;
+}
+
+.playerGroup {
+    background-position: 0 -356px;
+}
+
+.region {
+    background-position: 0 -373px;
+}
+
+.selection {
+    background-position: 0 -390px;
+}
+
+.sound {
+    background-position: 0 -407px;
+}
+
+.unitGroup {
+    background-position: 0 -424px;
+}
+
+.vision {
+    background-position: 0 -441px;
+}
+
+.melee {
+    background-position: 0 -458px;
+}
+
+.comment {
+    background-position: 0 -475px;
+}
+
+.trigger {
+    background-position: 0 -492px;
+}
+
+/* JASS */
+.jassCode {
+    max-width: 700px;
+    overflow: auto;
+    max-height: 600px;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 5px;
+}
+
+/* TREE VIEW */
+.treeview, .treeview ul { 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.treeview ul {
+    background-color: white;
+    margin-top: 0px;
+}
+
+.treeview .hitarea {
+    background: url(./../css/images/treeview-default.gif) -64px -25px no-repeat;
+    height: 16px;
+    width: 16px;
+    margin-left: -16px;
+    float: left;
+    cursor: pointer;
+}
+/* fix for IE6 */
+* html .hitarea {
+    display: inline;
+    float:none;
+}
+
+.treeview li { 
+    margin: 0;
+    padding: 0px 0pt 0px 16px;
+}
+
+.treeview a.selected {
+    background-color: #eee;
+}
+
+#treecontrol { margin: 1em 0; display: none; }
+
+.treeview .hover { color: red; cursor: pointer; }
+
+.treeview li { background: url(./../css/images/treeview-default-line.gif) 0 0 no-repeat; }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px; }
+
+.treeview .expandable-hitarea { background-position: -80px -3px; }
+
+.treeview li.last { background-position: 0 -1766px }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(./../css/images/treeview-default.gif); }  
+.treeview li.lastCollapsable { background-position: 0 -111px }
+.treeview li.lastExpandable { background-position: -32px -67px }
+
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea { background-position: 0; }
+
+.treeview-red li { background-image: url(./../css/images/treeview-red-line.gif); }
+.treeview-red .hitarea, .treeview-red li.lastCollapsable, .treeview-red li.lastExpandable { background-image: url(./../css/images/treeview-red.gif); } 
+
+.treeview-black li { background-image: url(./../css/images/treeview-black-line.gif); }
+.treeview-black .hitarea, .treeview-black li.lastCollapsable, .treeview-black li.lastExpandable { background-image: url(./../css/images/treeview-black.gif); }  
+
+.treeview-gray li { background-image: url(./../css/images/treeview-gray-line.gif); }
+.treeview-gray .hitarea, .treeview-gray li.lastCollapsable, .treeview-gray li.lastExpandable { background-image: url(./../css/images/treeview-gray.gif); } 
+
+.treeview-famfamfam li { background-image: url(./../css/images/treeview-famfamfam-line.gif); }
+.treeview-famfamfam .hitarea, .treeview-famfamfam li.lastCollapsable, .treeview-famfamfam li.lastExpandable { background-image: url(./../css/images/treeview-famfamfam.gif); } 
+
+.treeview .placeholder {
+    background: url(./../css/images/ajax-loader.gif) 0 0 no-repeat;
+    height: 16px;
+    width: 16px;
+    display: block;
+}
+
+.filetree li { padding: 3px 0 2px 16px; }
+.filetree span.folder, .filetree span.file { padding: 1px 0 1px 16px; display: block; }
+.filetree span.folder { background: url(./../css/images/folder.gif) 0 0 no-repeat; }
+.filetree li.expandable span.folder { background: url(./../css/images/folder-closed.gif) 0 0 no-repeat; }
+.filetree span.file { background: url(./../css/images/file.gif) 0 0 no-repeat; }
